@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/concurrent-eg/concurrent-eg.iml" filepath="$PROJECT_DIR$/concurrent-eg/concurrent-eg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tech_learning.iml" filepath="$PROJECT_DIR$/.idea/tech_learning.iml" />
     </modules>
   </component>
