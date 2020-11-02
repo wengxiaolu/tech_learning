@@ -7,9 +7,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 管程 多条件变量 实现阻塞队列
  * @author wengxiaolu
  */
-public class BlockingQueueLockExample {
+public class ReentrantLockExample {
     int maxSize =  10;
     List<Integer> queue = new ArrayList<Integer>();
     final Lock lock = new ReentrantLock();
