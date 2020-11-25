@@ -3,6 +3,8 @@ import java.util.concurrent.locks.StampedLock;
 /**
  * StampedLock 支持三种模式，分别是：写锁、悲观读锁和乐观读
  *
+
+
  * ReadWriteLock 支持多个线程同时读，但是当多个线程同时读的时候，所有的写操作会被阻塞；
  * 而 StampedLock 提供的乐观读，是允许一个线程获取写锁的，也就是说不是所有的写操作都被阻塞
  *
@@ -18,6 +20,13 @@ public class StampedLockExample {
         // 乐观读
         long stamp = sl.tryOptimisticRead();
         // 读入局部变量，
+
+
+
+
+
+
+        fs
         // 读的过程数据可能被修改
         int curX = x, curY = y;
         // 判断执行读操作期间，

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo/Consumer/Consumer.iml" filepath="$PROJECT_DIR$/Demo/Consumer/Consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Netty-Rpc/Netty-Rpc.iml" filepath="$PROJECT_DIR$/Netty-Rpc/Netty-Rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Provider/Provider.iml" filepath="$PROJECT_DIR$/Demo/Provider/Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo/Sdk/Sdk.iml" filepath="$PROJECT_DIR$/Demo/Sdk/Sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-eg/concurrent-eg.iml" filepath="$PROJECT_DIR$/concurrent-eg/concurrent-eg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tech_learning.iml" filepath="$PROJECT_DIR$/.idea/tech_learning.iml" />
     </modules>

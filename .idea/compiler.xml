@@ -6,11 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Sdk" />
+        <module name="Consumer" />
         <module name="concurrent-eg" />
+        <module name="Netty-Rpc" />
+        <module name="Provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="concurrent-eg" target="8" />
+      <module name="Consumer" target="1.8" />
+      <module name="Demo" target="1.5" />
+      <module name="Netty-Rpc" target="1.5" />
+      <module name="Provider" target="1.8" />
+      <module name="Sdk" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
